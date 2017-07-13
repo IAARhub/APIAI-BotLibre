@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Integración API.AI+BotLibre en simple JS/HTML</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script src="http://www.botlibre.com/scripts/sdk.js"></script>
+	<script type="text/javascript" src="javascripts/ai.js"></script>
+
+</head>
+<body>
+
+      <div class="row">
+		<div class="col s4"></div>
+        <div class="col s4">
+          <div class="card white">
+            <div class="card-content">
+           <div id='bot-div' style='background-color:transparent'>
+			<div class="row">
+				<div id='avatar-video-div' class="avatarCenter" style='background-repeat: no-repeat;'>
+					<video id='avatar-video' autoplay preload='auto' style='background:transparent;height:320px;'>
+					Video format not supported by your browser (try Chrome)
+					</video>
+				</div>
+				<div id='avatar-canvas-div' class="avatarCenter">
+					<canvas id='avatar-canvas' style='background:transparent;height:320px;' class="avatarCenter">
+					Canvas not supported by your browser (try Chrome)
+					</canvas>
+				</div>
+				<div>
+				<p id='response'>Bot: </p>
+				</div>  
+			 </div>
+            </div>
+		   </div>
+            <div class="card-action" id="acciones">
+			 <input id='chat' type='text'/>
+             <a href="#" class="black-text"><i class="material-icons" id="rec">mic_none</i></a>
+            </div>
+          </div>
+        </div>
+		<div class="col s4"></div>
+      </div>
+	  
+	  
+	
+</body>
+</html>

@@ -1,0 +1,20 @@
+html, body {
+  background-color: #fafafa;  
+
+}
+
+
+  
+ 	#avatar-canvas-div {
+		        width: 100%;
+				text-align:center;
+	}
+	
+
+	#avatar-canvas {
+		     display: inline;
+	}
+
+a {
+  color: #00B7FF;
+}
