@@ -2,6 +2,9 @@
 
 Código de integración de un bot de API.AI conectado a un avatar animado de Botlibre funcionando en navegador.
 
+### Autor: Patricio Gerpe
+
+![Avatar](/images/prevista.png)
 
 # Requisitos
 
@@ -25,3 +28,5 @@ web.avatar = "<avatarID>";
 // ACA VA EL ACCESSTOKEN DE TU AGENTE EN API.AI
 var accessToken = "<apiAIaccessToken>";
 ```
+
+! Pronto versión 2.0 integrada a una aplicación de Node-Express con script funcionando en back-end.
