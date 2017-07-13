@@ -1,4 +1,4 @@
-# SDK HTML/JS para integración API.AI + BotLibre 3D Avatar
+# Ejemplo HTML/JS para integración API.AI + BotLibre 3D Avatar
 
 Código de integración de un bot de API.AI conectado a un avatar animado de Botlibre funcionando en navegador.
 
