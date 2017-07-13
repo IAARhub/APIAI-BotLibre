@@ -44,7 +44,7 @@
       recognition.onend = function() {
       stopRecognition();
       };
-      recognition.lang = "en-US";
+      recognition.lang = "es";
       recognition.start();
       }
       function stopRecognition() {
