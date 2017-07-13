@@ -6,6 +6,9 @@ Código de integración de un bot de API.AI conectado a un avatar animado de Botli
 
 ![Avatar](/images/prevista.png)
 
+## TUTORIAL
+https://medium.com/@patriciojulian/tutorial-paso-a-paso-corre-tu-chatbot-en-tu-web-conectado-a-un-avatar-3d-animado-usando-a81aab24ad8f
+
 # Requisitos
 
 * Un agente en API.AI https://www.api.ai

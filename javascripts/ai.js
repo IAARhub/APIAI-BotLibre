@@ -13,6 +13,7 @@
       web.addMessage("Bienvenido", "like", "smile", "");
       web.processMessages();
 	  
+//CONFIGURACION DE API.AI
       var accessToken = "<apiAIaccessToken>";
       var baseUrl = "https://api.api.ai/v1/";
       $(document).ready(function() {
